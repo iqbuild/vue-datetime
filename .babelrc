@@ -1,24 +1,8 @@
 {
   "presets": [
-    [
-      "env",
-    {
-      "targets": {
-        "browsers": [
-          "last 2 versions"
-        ]
-      }
-    }
-    ]
+    "env"
   ],
   "plugins": [
-    "transform-object-rest-spread"
-  ],
-  "env": {
-    "test": {
-      "plugins": [
-        "istanbul"
-      ]
-    }
-  }
+    "transform-runtime"
+  ]
 }
